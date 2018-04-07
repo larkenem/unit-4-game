@@ -37,6 +37,8 @@ $(document).ready(function(){
 
             userTotal = 0;
             $("#userTotal").text("");
+
+            $("#outcome").text("");
         };
 
         function gameLogic() {
