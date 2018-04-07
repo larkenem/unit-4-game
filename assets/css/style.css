@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    background: url("../images/background4.jpg") no-repeat center center fixed;
+    background-size: 100%;
+}
+
+    .jumbotron {
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-top: 15px;
+        font-weight: bold;        
+        font-family: 'Amatic SC', cursive;
+        background: rgba(253, 153, 211, 0.5);
+        color: rgb(61, 3, 61);
+    }
+    .container {
+        margin: 0 auto;
+        /* width: 100%; */
+    }
+
+    .instructions {
+        box-sizing: border-box;
+        border-radius: 25px;
+        font-size: 32px;
+        font-weight: bold;
+        color: rgb(61, 3, 61);
+        background: rgba(120, 214, 159, 0.5);
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: 'Amatic SC', cursive;
+    }
+
+    .middleGame {
+        box-sizing: border-box;
+        border-radius: 25px;
+        font-size: 24px;
+        font-weight: bold;
+        color: rgb(61, 3, 61);
+        background: rgba(180, 26, 241, 0.5);
+        font-family: 'Amatic SC', cursive;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 200px;
+        margin-left: 200px;
+    }
+
+    .crystalsRow {
+        box-sizing: border-box;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+
+
+    

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Crystal Collector</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Sigmar+One" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/javascript/game.js"></script> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="jumbotron">
+            <h1>Crystal Collector Game</h1>
+        </div>
+
+        <div class="instructions">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Each crystal below has a hidden value. Your task is to "mine" the crystals until you match the random number.</h1>
+                        <hr>
+                    <h1>You win the game by matching the number displayed. You lose the game if you exceed the number displayed.</h1>
+                        <hr>
+                    <h1>After each game, the crystals are assigned a new, random value and it is up to you to match the new random number.</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="middleGame">
+            <div class="row">
+                <div id="game" class="col-md-4">
+                    <br>
+                    <h3>Computer's Guess: <span id="compGuess"></span></h3>
+                </div>
+                <div id="game" class="col-md-4">
+                    <br>
+                    <h3>Wins: <span id="wins"></span></h3>
+                    <br>
+                    <h3>Losses: <span id="losses"></span></h3>
+                    <br>
+                </div>
+                <div id="game" class="col-md-4">
+                    <br>
+                    <h3>Your Total: <span id="userTotal"></span></h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="crystalsRow">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="http://via.placeholder.com/150x150" id="crystal1" class="crystals img-rounded">
+                </div>
+                <div class="col-md-3">
+                    <img src="http://via.placeholder.com/150x150" id="crystal2" class="crystals img-rounded">
+                </div>
+                <div class="col-md-3">
+                    <img src="http://via.placeholder.com/150x150" id="crystal3" class="crystals img-rounded">
+                </div>
+                <div class="col-md-3">
+                    <img src="http://via.placeholder.com/150x150" id="crystal4" class="crystals img-rounded">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    
+</body>
+</html>
