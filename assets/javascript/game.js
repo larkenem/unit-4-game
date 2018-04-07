@@ -37,22 +37,21 @@ $(document).ready(function(){
 
             userTotal = 0;
             $("#userTotal").text("");
-
-            $("#outcome").text("");
+ 
         };
 
         function gameLogic() {
             if (userTotal === compGuess) {
                 wins++;
                 $("#wins").text(wins);
-                $("#outcome").text("You Win!");
+                $("#outcome").text("You Win!").fadeIn(2000).fadeOut(2000);;
                 setUp();
             };
 
             if (userTotal > compGuess) {
                 losses++;
                 $("#losses").text(losses);
-                $("#outcome").text("You lose.");
+                $("#outcome").text("You lose.").fadeIn(2000).fadeOut(2000);
                 setUp();
             };
         };
