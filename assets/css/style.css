@@ -7,7 +7,7 @@ body {
     .jumbotron {
         margin-left: 200px;
         margin-right: 200px;
-        margin-top: 15px;
+        margin-top: 10px;   
         font-weight: bold;        
         font-family: 'Amatic SC', cursive;
         background: rgba(253, 153, 211, 0.5);
@@ -19,29 +19,32 @@ body {
     }
 
     .instructions {
+        margin-top: -20px;
         box-sizing: border-box;
         border-radius: 25px;
         font-size: 32px;
         font-weight: bold;
         color: rgb(61, 3, 61);
         background: rgba(120, 214, 159, 0.5);
-        padding-top: 5px;
-        padding-bottom: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         font-family: 'Amatic SC', cursive;
     }
 
     .middleGame {
         box-sizing: border-box;
-        border-radius: 25px;
+        border-radius: 20px;
         font-size: 24px;
         font-weight: bold;
         color: rgb(61, 3, 61);
         background: rgba(180, 26, 241, 0.5);
         font-family: 'Amatic SC', cursive;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
         margin-right: 200px;
         margin-left: 200px;
+        padding-top: 10px;
+        padding-bottom: 20px;
     }
 
     .crystalsRow {
