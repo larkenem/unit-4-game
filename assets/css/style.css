@@ -55,6 +55,23 @@ body {
         margin-right: 200px;
     }
 
+    @media (max-width: 400px) {
+        .jumbotron {
+            margin-left: 0;
+            margin-right: 0;
+            font-size: 22px;
+        }
+
+        .instructions {
+            font-size: 18px;
+        }
+
+        .middleGame {
+            font-size: 18px;
+
+        }
+    }
+
 
 
     

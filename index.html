@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Sigmar+One" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="assets/javascript/game.js"></script> 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 </head>
 
 <body>
@@ -22,23 +22,23 @@
 
         <div class="instructions">
             <div class="row">
-                <div class="col-md-12">
-                    <h1>Each crystal below has a hidden value. Your task is to "mine" the crystals until you match the random number.</h1>
+                <div class="col-md-12 col-xs-12">
+                    <h1>Each crystal below has a hidden value. Your task is to "mine" the crystals until you are able to match the computer's number.</h1>
                         <hr>
-                    <h1>You win the game by matching the number displayed. You lose the game if you exceed the number displayed.</h1>
+                    <h1>Your total will be calculated by clicking each crystal. You win by matching the computer's number. You lose if you exceed the computer's number.</h1>
                         <hr>
-                    <h1>After each game, the crystals are assigned a new, random value and it is up to you to match the new random number.</h1>
+                    <h1>After each match, the crystals are assigned a new, random value and it is up to you to try and match the new random number.</h1>
                 </div>
             </div>
         </div>
 
         <div class="middleGame">
             <div class="row">
-                <div id="game" class="col-md-4">
+                <div id="game" class="col-md-4 col-xs-3">
                     <br>
                     <h3>Computer's Guess: <span id="compGuess"></span></h3>
                 </div>
-                <div id="game" class="col-md-4">
+                <div id="game" class="col-md-4 col-xs-3">
                     <br>
                     <h3>Wins: <span id="wins"></span></h3>
                     <br>
@@ -46,7 +46,7 @@
                     <br>
                     <p><span id="outcome"></span></p>
                 </div>
-                <div id="game" class="col-md-4">
+                <div id="game" class="col-md-4 col-xs-3">
                     <br>
                     <h3>Your Total: <span id="userTotal"></span></h3>
                 </div>
@@ -55,17 +55,17 @@
 
         <div class="crystalsRow">
             <div class="row">
-                <div class="col-md-3">
-                    <img src="assets/images/blue.jpg" id="crystal1" class="crystals img-rounded">
+                <div class="col-md-3 col-xs-2">
+                    <img src="assets/images/blue.jpg" id="crystal1" class="crystals img-rounded img-responsive">
                 </div>
-                <div class="col-md-3">
-                    <img src="assets/images/green.jpg" id="crystal2" class="crystals img-rounded">
+                <div class="col-md-3 col-xs-2">
+                    <img src="assets/images/green.jpg" id="crystal2" class="crystals img-rounded img-responsive">
                 </div>
-                <div class="col-md-3">
-                    <img src="assets/images/pink.jpg" id="crystal3" class="crystals img-rounded">
+                <div class="col-md-3 col-xs-2">
+                    <img src="assets/images/pink.jpg" id="crystal3" class="crystals img-rounded img-responsive">
                 </div>
-                <div class="col-md-3">
-                    <img src="assets/images/purple.jpg" id="crystal4" class="crystals img-rounded">
+                <div class="col-md-3 col-xs-2">
+                    <img src="assets/images/purple.jpg" id="crystal4" class="crystals img-rounded img-responsive">
                 </div>
             </div>
         </div>
